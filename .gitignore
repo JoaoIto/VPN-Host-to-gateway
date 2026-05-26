@@ -1,0 +1,12 @@
+# Virtual Machines (VirtualBox)
+vms/
+*.vdi
+*.vbox
+*.vbox-prev
+Logs/
+*.log
+
+# ISO Images
+iso/
+*.iso
+*.img
