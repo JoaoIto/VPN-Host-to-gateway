@@ -11,9 +11,9 @@ Acesse rapidamente os arquivos do projeto através dos links abaixo:
 1. **Perfil de Configuração VPN (.ovpn):**
    * [pfSense-UDP4-1194-user_vpn-config.ovpn](pfSense-UDP4-1194-user_vpn-config.ovpn) — Perfil gerado pelo pfSense contendo todos os certificados (CA, Certificado do Usuário, Chave Privada) embutidos no formato inline para importação direta no cliente OpenVPN.
 2. **Relatório Técnico de Implantação:**
-   * [docs/relatorio_fase0.md](docs/relatorio_fase0.md) — Documentação completa dividida em etapas técnicas, com mais de 35 capturas de tela explicando o setup do pfSense, a criação da PKI, a configuração do túnel OpenVPN, regras de firewall e resolução de problemas (Troubleshooting).
-3. **Roteiro Prático de Testes e Comandos:**
-   * [docs/roteiro_testes.md](docs/roteiro_testes.md) — Roteiro de testes com comandos CMD e PowerShell para auditoria, verificação da tabela de rotas locais, pings para a rede protegida e traceroute do túnel.
+   * [docs/relatorio_fase0.md](docs/relatorio_fase0.md) (Versão Markdown) / [docs/relatorio_fase0.pdf](docs/relatorio_fase0.pdf) (Versão PDF) — Documentação completa dividida em etapas técnicas, com mais de 35 capturas de tela explicando o setup do pfSense, a criação da PKI, a configuração do túnel OpenVPN, regras de firewall e resolução de problemas (Troubleshooting).
+3. **Roteiro Prático de Testes, Auditoria e Comandos:**
+   * [docs/roteiro_testes.md](docs/roteiro_testes.md) — Roteiro de testes unificado contendo os comandos de rede do Windows Host (ping, tracert, route print) e os comandos FreeBSD CLI no shell do pfSense para verificação das regras do Packet Filter (`pfctl`), processos e sockets ativos (`sockstat`), chaves criptográficas e arquivos de configuração interna do OpenVPN.
 4. **Plano de Implementação Inicial:**
    * [docs/implementation_plan.md](docs/implementation_plan.md) — O design arquitetural original e topologia lógica do laboratório de rede.
 
